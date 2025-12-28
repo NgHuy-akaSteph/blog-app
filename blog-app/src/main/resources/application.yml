@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: blog-app
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/blogapp
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update # update schema theo từng theo entity (dev)
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+
+
+
+
+
+
+
+
+
+
