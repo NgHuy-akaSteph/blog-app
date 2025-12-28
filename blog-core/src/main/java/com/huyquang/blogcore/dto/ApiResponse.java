@@ -14,6 +14,7 @@ public class ApiResponse<T> {
     private String message;
     private T data;
 
+    //TODO: Cần triển khai rõ ràng hơn
     public static <T> ApiResponse<T> ok(T data) {
         return new ApiResponse<>(true, "OK", data);
     }
