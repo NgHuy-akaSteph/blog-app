@@ -1,7 +1,7 @@
 package com.huyquang.blogcore.exception;
 
-public class BusinessException extends RuntimeException{
-    public BusinessException(String message) {
-        super(message);
+public class BusinessException extends AppException{
+    public BusinessException(ErrorCode errorCode, Object... args) {
+        super(errorCode, args);
     }
 }

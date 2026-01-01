@@ -13,6 +13,7 @@
         <spring.boot.version>3.5.9</spring.boot.version>
     </properties>
 
+    <!-- Đảm bảo dependencies ở các module con đều cùng phiên bản -->
     <dependencyManagement>
         <dependencies>
             <dependency>
